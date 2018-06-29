@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mogbeyi-david/weather-app/issues"
   },
-  "homepage": "https://github.com/mogbeyi-david/weather-app#readme"
+  "homepage": "https://github.com/mogbeyi-david/weather-app#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
 }
