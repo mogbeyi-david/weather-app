@@ -5,5 +5,6 @@ request({
   json: true
 }, (error, response, body) => {
   "use strict";
-  console.log(JSON.stringify(body , undefined , 4));
+  console.log(`Latitude: ${body.results[0].geometry.location.lat}` );
+  console.log(`Latitude: ${body.results[0].geometry.location.lng}` );
 });
