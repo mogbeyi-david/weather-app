@@ -8,6 +8,6 @@ setTimeout(() => {
 setTimeout(() => {
   "use strict";
   console.log('No delay at all');
-} , 0)
+} , 0);
 
 console.log('finishing app');
