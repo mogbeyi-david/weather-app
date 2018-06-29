@@ -1,12 +1,14 @@
-const getUser = (id , callback) => {
+const getUser = (id, callback) => {
   "use strict";
   const user = {
     name: "David"
   };
-  callback(user);
+  setTimeout(() => {
+    callback(user);
+  }, 3000);
 };
 
-getUser(123 , (userObject) => {
+getUser(123, (userObject) => {
   "use strict";
   console.log(userObject);
 });
